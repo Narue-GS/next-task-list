@@ -27,7 +27,7 @@ export default function TaskList(props:{list:ITask[]}) {
   }
 
   return (
-      <div className="w-[30%] rounded-lg shadow-lg shadow-sky-200 p-4">
+      <div className="w-[30%] min-w-[300px] sm:min-w[100px] sm:h-[70vh] md:h-fit rounded-lg shadow-lg shadow-sky-200 p-4">
         <header className="group/input">
           <div className="flex justify-between">
             <input
